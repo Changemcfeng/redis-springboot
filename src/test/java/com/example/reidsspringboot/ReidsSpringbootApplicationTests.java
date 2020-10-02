@@ -17,6 +17,7 @@ class ReidsSpringbootApplicationTests {
     void contextLoads() {
 //        rt.opsForValue().set("key1",new User("mcfeng",24));
             redisUtil.get("aa");
+            redisUtil.getExpire("aa");
 //            System.out.println(rt.opsForValue().get("bb"));
 //        RedisConnectionFactory connectionFactory = redisTemplate.gestConnectionFactory();
 //        RedisConnection connection = connectionFactory.getConnection();
